@@ -4,8 +4,9 @@
         "es2021": true
     },
     "extends": [
-        "plugin:react/recommended",
-        "airbnb"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -22,10 +23,13 @@
     "rules": {
         "quotes": [2, "double"],
         "semi": 2,
-        "arrow-body-style": [2, "always"],
+        "indent": [2, 4],
+        "react/jsx-indent": 0,
+        "arrow-body-style": 0,
         "react/jsx-filename-extension": 0,
         "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
         "import/no-unresolved": 0,
-        "import/extensions": 0
+        "import/extensions": 0,
+        "default-param-last": 0
     }
 }

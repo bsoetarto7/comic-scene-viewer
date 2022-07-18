@@ -1,13 +1,10 @@
 import React from "react";
-import "./App.css";
 import ComicScenes from "./pages/ComicScenes";
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <ComicScenes />
+const App: React.FC = () => (
+    <div>
+        <ComicScenes />
     </div>
-  );
-};
+);
 
 export default App;
