@@ -1,4 +1,10 @@
 .container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.sceneImage {
+    width: 100%;
 }

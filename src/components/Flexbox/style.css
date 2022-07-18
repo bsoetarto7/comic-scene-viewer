@@ -1,0 +1,20 @@
+.column {
+    box-sizing: border-box;
+    padding: 10px;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+}
+
+@media (min-width: 768px) {
+    .column {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 1080px) {
+    .column {
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+}

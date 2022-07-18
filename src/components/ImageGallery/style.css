@@ -1,0 +1,21 @@
+.imageContainer {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imageSlide {
+    position: relative;
+    top: 25%;
+    width: 320px;
+}
+
+@media (min-width: 768px) {
+    .imageSlide {
+        width: 500px;
+    }
+}

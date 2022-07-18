@@ -16,6 +16,6 @@ export class ApiComicScenesProvider implements ComicScenesProvider {
             throw new Error("Images unable to retrieve");
         }
 
-        return json.data.sceneGroups;
+        return json.data.sceneGroups.splice(0, 20);
     }
 }
